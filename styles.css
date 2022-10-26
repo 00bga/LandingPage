@@ -1,0 +1,712 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Averta Demo PE Cutted Demo;
+    src: url("FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf");
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Proxima Nova, sans-serif;
+    background-color: #f8f6f6;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    margin: 5rem 14rem 5rem 19rem;
+}
+
+p {
+    font-size: 1.6rem;
+    color: #565656;
+    margin-bottom: 1.5rem;
+}
+
+/*Headings*/
+.forCards{
+    font-family: Averta Demo PE Cutted Demo, sans-serif;
+    color: #757575;
+}
+
+h1 {
+    font-family: Averta Demo PE Cutted Demo, sans-serif;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+h2 {
+    font-family: Averta Demo PE Cutted Demo, sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    line-height: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: Averta Demo PE Cutted Demo, sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    font-family: Averta Demo PE Cutted Demo, sans-serif;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.aPlus {
+    color: #000000;
+    font-size: 2.5rem;
+}
+
+.heading {
+    font-weight: bolder;
+}
+
+/*Navigation "Buttons"*/
+.navigation {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4rem;
+}
+
+.navigationBtns {
+    height: 0;
+    font-size: 1.7rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navigationBtns:hover {
+    color: #777;
+}
+
+/*A Digital Product Agency*/
+.productAgency {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    margin-bottom: 18rem;
+}
+
+.description {
+    font-family: Averta Demo PE Cutted Demo, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 2rem;
+    margin-left: 20%;
+    line-height: 2.5rem;
+}
+
+.presenterPic {
+    width: 100%;
+    height: 50rem;
+    border-bottom-left-radius: 20rem;
+    display: flex;
+    grid-column-start: 2;
+    justify-content: end;
+}
+
+.contactNow {
+    color: #FFFFFF;
+    background-color: #2639ED;
+    border: 0 solid;
+    border-radius: 6rem;
+    width: 21rem;
+    height: 6rem;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    transition: all 0.3s;
+}
+
+.contactNow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.25);
+}
+
+/*Our Clients*/
+.clients {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: 8rem;
+    margin-bottom: 10rem;
+    position: relative;
+}
+
+.logo {
+    width: 18rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.airbnb {
+    width: 19.5rem;
+    height: 6.1rem;
+}
+
+.amazon {
+    margin-top: 2.5rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*How can we help your Business?*/
+.help {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 15rem;
+    position: relative;
+}
+
+.firstColumn {
+    display: flex;
+    position: relative;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 1.2rem;
+}
+
+.card {
+    width: 30rem;
+    height: 37rem;
+    padding: 3.8rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.25);
+}
+
+.topLeft {
+    margin-top: 7rem;
+}
+
+.bottomLeft {
+    margin-top: 5rem;
+}
+
+.topRight {
+    margin-top: 2rem;
+}
+
+.icon {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 2rem;
+    margin-bottom: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business {
+    background-color: #F1F7FF;
+}
+
+.finance {
+    background-color: #FFF7E3;
+}
+
+.development {
+    background-color: #FFF2F8;
+}
+
+.market {
+    background-color: #DEFFEE;
+}
+
+/*Great Digital Product Agency since 2016*/
+.since {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 20rem;
+    position: relative;
+}
+
+.video {
+    width: 55rem;
+    height: 37rem;
+    background: url("./images/5c85fe148218431cea661b4db3e73cab.jpg");
+    border-radius: 3rem;
+    background-size: cover;
+    margin-left: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    font-family: Averta Demo PE Cutted Demo, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 5rem;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.playBtn {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #2639ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 2rem solid transparent;
+    border-left: 3rem solid #FFFFFF;
+    border-bottom: 2rem solid transparent;
+    margin-left: 0.8rem;
+}
+
+.playBtn:hover {
+    transform: scale(1.15);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+/*What our happy clients say*/
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.head {
+    margin-bottom: 10rem;
+}
+
+.mathewFeedback {
+    text-align: left;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.mathewPic {
+    width: 39rem;
+    height: 39rem;
+    background-image: url("./images/e07f39545f813753424891ecd6c754b5.jpg");
+    background-size: cover;
+    border-radius: 50rem 0 50rem 50rem;
+    margin-left: 18rem;
+}
+
+.buttons {
+    display: flex;
+}
+
+input[type="radio"] {
+    position:absolute;
+    right:1000%;
+}
+
+input[type="radio"]:checked + label{
+    background-color: #2639ED;
+    transition: all 0.3s;
+}
+
+label {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    background-color: #c8ecff;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+/*Picture Wheel*/
+.first {
+    width: 12rem;
+    height: 12rem;
+    background-image: url("./images/1.jpg");
+    right: 20rem;
+    top: 30rem;
+}
+
+.second {
+    width: 9.8rem;
+    height: 9.8rem;
+    background-image: url("./images/2.jpg");
+    right: 35rem;
+    top: 25rem;
+}
+
+.third {
+    width: 6.8rem;
+    height: 6.8rem;
+    background-image: url("./images/3.jpg");
+    right: 40rem;
+    top: 37rem;
+}
+
+.fourth {
+    width: 9.8rem;
+    height: 9.8rem;
+    background-image: url("./images/4.jpg");
+    right: 26rem;
+    top: 45rem;
+}
+
+.fifth {
+    width: 6.8rem;
+    height: 6.8rem;
+    background-image: url("./images/5.jpg");
+    right: 16rem;
+    top: 43rem;
+}
+
+.sixth {
+    width: 5.4rem;
+    height: 5.4rem;
+    background-image: url("./images/6.jpg");
+    right: 12rem;
+    top: 35rem;
+}
+
+.seventh {
+    width: 5.4rem;
+    height: 5.4rem;
+    background-image: url("./images/7.jpg");
+    right: 15rem;
+    top: 25rem;
+}
+
+.eigth {
+    width: 6.8rem;
+    height: 6.8rem;
+    background-image: url("./images/8.jpg");
+    right: 25rem;
+    top: 19rem;
+}
+
+/*Subscribe Newsletter*/
+.subscribe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20rem;
+    position: relative;
+}
+
+.newsletter {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 30rem;
+    width: 140rem;
+    border-radius: 7.5rem;
+    background-color: #E2F6FF;
+    position: relative;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    background-color: #2639ED;
+    border-top: 28rem solid #2639ED;
+    border-left: 8rem solid transparent;
+    border-radius: 11rem 7.5rem 7.5rem 15rem;
+    margin-left: 20rem;
+    position: relative;
+}
+
+.whiteBack {
+    background-color: #FFFFFF;
+    border-radius: 7.5rem;
+    width: 48rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10rem;
+    right: 19rem;
+}
+
+input[type="email"] {
+    width: 24rem;
+    height: 8rem;
+    border-radius: 6rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+    border: none;
+    outline: none;
+}
+
+input[type="email"]::placeholder {
+    font-size: 1.5rem;
+    font-family: Averta Demo PE Cutted Demo, sans-serif;
+}
+
+.contact {
+    margin-top: 0;
+}
+
+.contact:hover {
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.05);
+}
+
+/*Decorations*/
+.decor1 {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color: #DAE9FF;
+    position: absolute;
+    top: 0;
+    left: 46.9%;
+    z-index: -1;
+}
+
+.decor2 {
+    width: 17rem;
+    height: 17rem;
+    background-color: #FFF5DB;
+    border-bottom-right-radius: 10rem;
+    position: absolute;
+    top: 43rem;
+    right: 12rem;
+    z-index: -1;
+}
+
+.decor3 {
+    width: 17rem;
+    height: 17rem;
+    background-color: #FFF5DB;
+    border-top-left-radius: 10rem;
+    position: absolute;
+    top: 27rem;
+    left: 16rem;
+    z-index: -1;
+}
+
+.decor4 {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 1rem solid #FF007A;
+    position: absolute;
+    right: 22rem;
+    top: 72rem;
+    z-index: -1;
+}
+
+.decor5 {
+    width: 125rem;
+    height: 60rem;
+    background-color: #E9F1FF;
+    border-top-left-radius: 15rem;
+    position: absolute;
+    top: 17rem;
+    left: 70rem;
+    z-index: -1;
+}
+
+.decor6 {
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color: #FFF5DB;
+    top: 30rem;
+    left: 73rem;
+    z-index: -1;
+}
+
+.decor7 {
+    width: 17rem;
+    height: 17rem;
+    background-color: #dee2ff;
+    border-bottom-right-radius: 10rem;
+    position: absolute;
+    top: 4rem;
+    left: 2.5rem;
+    z-index: -1;
+}
+
+.decor8 {
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background-color: #FFF5DB;
+    z-index: -1;
+    right: 25rem;
+    top: 30rem;
+}
+
+.decor4Feedback {
+    left: 20rem;
+    top: 50rem;
+}
+
+.decor9 {
+    width: 17rem;
+    height: 17rem;
+    background-color: #FFF5DB;
+    border-bottom-left-radius: 10rem;
+    position: absolute;
+    left: -4rem;
+    top: 17rem;
+    z-index: -1;
+}
+
+.dots {
+    width: 50rem;
+    height: 20rem;
+    background-image: radial-gradient(#E6E6E6 4px, transparent 4px);
+    background-size: 25px 20px;
+    position: absolute;
+    top: 34rem;
+    left: 13rem;
+    z-index: -1;
+}
+
+.dotsHelp {
+    position: absolute;
+    top: 62.8rem;
+    left: 30rem;
+    background-image: radial-gradient(#d6e2ff 4px, transparent 4px);
+}
+
+.dotsSquare {
+    width: 20rem;
+    height: 20rem;
+    background-image: radial-gradient(#E6E6E6 4px, transparent 4px);
+    background-size: 25px 20px;
+    position: absolute;
+    top: 16rem;
+    left: 45rem;
+}
+
+.dotsNewsletter {
+    top: -36rem;
+    left: 28rem;
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    background-size: cover;
+}
+
+/*About The Company - Footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    background-color: #E4E4E4;
+    width: 85%;
+    height: 2px;
+}
+
+.end {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 40% repeat(4, 15%);
+    margin-bottom: 3rem;
+}
+
+.socialMedia {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.fa {
+    padding: 1rem;
+    margin-right: 1.5rem;
+    width: 3rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.fa:hover {
+    transform: scale(1.5);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.25);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+footer {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    color: #7D7D7D;
+}
